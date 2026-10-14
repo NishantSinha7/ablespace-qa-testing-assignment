@@ -33,6 +33,6 @@ Supporting evidence for BUG-01 is available in the `evidence/` folder. It includ
 
 ## Optional Playwright Automation (Section 7)
 
-A JavaScript Playwright smoke test is included in [`playwright/README.md`](playwright/README.md). Since the staging account uses Google sign-in, authentication and onboarding are completed manually in Chrome. The automated test then searches for the existing fictional `AveryQA TestRecord` student in Caseload and verifies that the matching record is visible.
+A JavaScript Playwright smoke test is included in `playwright/`. The intended read-only workflow searches for the existing fictional `AveryQA TestRecord` student in Caseload and verifies that the record is visible.
 
-No Google credentials are stored in the source code. The generated authentication state remains local and is excluded from version control.
+Execution could not be completed during this assignment because Google sign-in rejected the Playwright-launched Chrome browser as insecure. The authentication state was not saved, and no passing automation run is claimed. The source code and setup instructions are included as an optional bonus; the test remains unverified.
