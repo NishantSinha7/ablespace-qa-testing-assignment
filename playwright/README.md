@@ -72,3 +72,7 @@ npm run test:report
 - **Search field not found:** verify that onboarding is complete and Caseload is usable, and confirm `BASE_URL` points at the staging website.
 - **Student assertion fails:** verify the fictional student still exists in staging and that `TEST_STUDENT_SEARCH` / `EXPECTED_STUDENT_NAME` match the visible record.
 - **Auth expired:** rerun `npm run auth:setup` to refresh the ignored local state.
+
+## Execution status
+
+During this assignment, Google sign-in rejected the Playwright-launched Chrome browser with the message “This browser or app may not be secure.” No authenticated browser state was saved, and the automated test was not executed successfully. Do not bypass Google's security controls or store Google credentials in the source code. The test should be considered unverified until it can be run with an approved authenticated staging session.
