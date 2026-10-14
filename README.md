@@ -1,4 +1,4 @@
-# AbleSpace QA Testing Assignment
+<img width="1912" height="1070" alt="image" src="https://github.com/user-attachments/assets/b430bb25-8923-47a6-bf1d-87aaf367aa32" /># AbleSpace QA Testing Assignment
 
 **Role:** Software Tester (QA)  
 **Web application:** [AbleSpace staging](https://staging.ablespace.io/)  
@@ -25,18 +25,11 @@
 
 ## Key findings
 
-- **BUG-01:** Android role-selection dropdown is clipped at the screen edge and overlaps the on-screen keyboard. Severity Medium; priority High. See the report and screenshot evidence.
+- **BUG-01:** Android role-selection dropdown is clipped at the screen edge and overlaps the on-screen keyboard. Severity Medium; priority High. See the report and screenshot and screen-recording evidence.
 - **OBS-01:** Notes count briefly showed 2 before refresh and 1 after refresh; not reproduced, so not classified as a bug.
 - **OBS-02:** A student created on the staging website was not visible in the public Android app. Backend/tenant parity was not verified, so this is not classified as a bug.
 
 Supporting evidence for BUG-01 is available in the `evidence/` folder. It includes a screenshot and a screen recording demonstrating the Android role-selector layout issue. The app's backend/environment was not independently verified, so the missing staging-created student in the Android app is recorded as an observation rather than a confirmed defect.
-
-## Before submitting
-
-- Verify the descriptions and actual results match what you observed.
-- The Android device and OS are recorded as iQOO Neo 9 Pro / Android 16. The exact app version and desktop browser versions were not recorded; do not guess them.
-- Keep credentials, `.env` files, real student/personal data, and unnecessary personal information out of the repository.
-- Ensure the repository is accessible to the recruiter and submit its link through the assignment Google Form.
 
 ## Optional automation
 
