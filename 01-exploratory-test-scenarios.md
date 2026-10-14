@@ -19,4 +19,4 @@
 
 ## Scope boundaries
 
-Testing was intentionally limited to high-value workflows rather than every visible product area. Billing, Family, Accommodations, Service Time, Attachments, report exports, exhaustive field-boundary validation, security testing, penetration testing, load testing, and repeated account creation were not tested. No real student data was entered. Native iOS testing was not performed. The Android app/device model, OS version, and app version were not recorded.
+Testing was intentionally limited to high-value workflows rather than every visible product area. Billing, Family, Accommodations, Service Time, Attachments, report exports, exhaustive field-boundary validation, security testing, penetration testing, load testing, and repeated account creation were not tested. No real student data was entered. Native iOS testing was not performed. The official Google Play Android app was tested on an iQOO Neo 9 Pro running Android 16; the exact app version was not recorded.
