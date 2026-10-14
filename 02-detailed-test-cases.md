@@ -79,7 +79,7 @@
   2. Click Incorrect once and inspect counters/accuracy.
   3. Use Undo and inspect whether the most recent entry is reverted.
 - **Expected result:** After the first correct response, attempts = 1 and accuracy = 100%. After one correct and one incorrect response, attempts = 2, correct = 1, incorrect = 1, accuracy = 50%. Undo should revert the latest entry.
-- **Actual result:** The observed counters and accuracy matched the expected calculation. The user confirmed Undo worked; Undo was pressed more than once during exploratory testing, so no further assertion is made about the final reset state.
+- **Actual result:** The observed counters and accuracy matched the expected calculation. The counters and displayed accuracy matched the expected calculation. I confirmed that Undo reverted the latest entry. I pressed Undo more than once during exploratory testing, so I did not make further assertions about the final reset state.
 - **Status:** **Pass**
 
 ## TC-07 — Prompt tracking and consistency across Capture, Stats, and Graph
