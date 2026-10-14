@@ -40,5 +40,3 @@
 - **Observed behaviour:** `AveryQA TestRecord`, created on `https://staging.ablespace.io/`, was not present in the Android app's Caseload, which displayed two demo students.
 - **Why not a bug:** The web test used an explicitly named staging environment while the app was installed from the public Play Store. The app may connect to production or a different backend/tenant. Shared account credentials do not prove that both clients use the same database/environment. Backend parity was not verified, so this is recorded as an environment/data-visibility observation rather than a product defect.
 - **Recommended follow-up:** Only classify this as a defect if the product specification confirms that the public Android app and the staging web environment should share the same tenant/data source.
-
-The assignment permits fewer than three bug reports where fewer genuine issues are found. No artificial bugs have been added to meet a quota.
