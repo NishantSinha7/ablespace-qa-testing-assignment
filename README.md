@@ -1,4 +1,4 @@
-<img width="1912" height="1070" alt="image" src="https://github.com/user-attachments/assets/b430bb25-8923-47a6-bf1d-87aaf367aa32" /># AbleSpace QA Testing Assignment
+# AbleSpace QA Testing Assignment
 
 **Role:** Software Tester (QA)  
 **Web application:** [AbleSpace staging](https://staging.ablespace.io/)  
