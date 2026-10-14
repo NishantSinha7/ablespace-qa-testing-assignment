@@ -17,7 +17,12 @@
   5. Repeat opening the selector if it remains on the role prompt; do not enter real student data.
 - **Expected Result:** The role selector and options should remain within the visible screen, be readable and tappable while the keyboard is present, and allow the user to complete the role-selection step and continue.
 - **Actual Result:** The role-options popover extends to/partly beyond the right screen edge, clipping option text. The on-screen keyboard overlaps the bottom sheet and obscures part of the form/list. The role-selection prompt remained on screen throughout the approximately 37-second recording; a brief blank/loading screen with a spinner appeared before returning to the same prompt. The recording does not capture a successful role selection or completion of this step.
-- **Evidence:** [`evidence/BUG-01-android-role-picker-clipped.jpg`](evidence/BUG-01-android-role-picker-clipped.jpg) — frame extracted from the tester's screen recording showing the options menu and keyboard overlap. The original recording is retained by the tester and is not included in this public package.
+- **Evidence:** - **Screenshot:** [Android role selector clipping](evidence/BUG-01-android-role-picker-clipped.jpg)
+- **Screen recording:** [Role selector reproduction video](evidence/BUG-01-android-role-picker-reproduction.mp4)
+
+**Device:** iQOO Neo 9 Pro, Android 16  
+**App source:** Google Play Store  
+**Test date:** 14 October 2026
 
 **Retest note:** Reproduce after a fresh app launch, record exact Android/app versions, and verify whether selecting a role becomes possible after dismissing the keyboard or scrolling the option list. Severity/priority may be refined after this retest.
 
