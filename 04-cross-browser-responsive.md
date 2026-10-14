@@ -33,7 +33,7 @@ These are browser-emulation checks, not tests on physical iPad devices. The assi
 | Role-selection prompt | **Fail — BUG-01** | On opening “Select your role”, the options popover was clipped at the right edge and overlapped the on-screen keyboard; the role prompt remained during the recorded attempt. See Section 4 and the screenshot evidence. |
 | Web-staging student visible in app | **Not classified as a bug — OBS-02** | `AveryQA TestRecord` created in staging web was not visible in the public app. The app's backend/tenant was not verified and may differ from staging. |
 
-The official Android app was installed from Google Play and tested on 14 October 2026 on an iQOO Neo 9 Pro running Android 16. The exact app version was not recorded. No iOS app test was performed. The original screen recording is retained by the tester; a selected screenshot is included in `evidence/`.
+The official Android app was installed from Google Play and tested on 14 October 2026 on an iQOO Neo 9 Pro running Android 16. The exact app version was not recorded. No iOS app test was performed. The original recording and screenshot is included in `evidence/`.
 
 ## Testing limitations
 
