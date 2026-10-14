@@ -29,7 +29,7 @@
 - **OBS-01:** Notes count briefly showed 2 before refresh and 1 after refresh; not reproduced, so not classified as a bug.
 - **OBS-02:** A student created on the staging website was not visible in the public Android app. Backend/tenant parity was not verified, so this is not classified as a bug.
 
-The full original mobile recording is retained by the tester; only a relevant still image is included here. The recording showed Android system UI/notification controls, so it has not been included in this public repository package.
+Supporting evidence for BUG-01 is available in the `evidence/` folder. It includes a screenshot and a screen recording demonstrating the Android role-selector layout issue. The app's backend/environment was not independently verified, so the missing staging-created student in the Android app is recorded as an observation rather than a confirmed defect.
 
 ## Before submitting
 
