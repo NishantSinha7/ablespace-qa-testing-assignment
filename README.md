@@ -31,6 +31,8 @@
 
 Supporting evidence for BUG-01 is available in the `evidence/` folder. It includes a screenshot and a screen recording demonstrating the Android role-selector layout issue. The app's backend/environment was not independently verified, so the missing staging-created student in the Android app is recorded as an observation rather than a confirmed defect.
 
-## Optional automation
+## Optional Playwright Automation (Section 7)
 
-Playwright automation (Section 7) is not included. The assignment states that Sections 1–6 are sufficient for consideration; this package prioritizes those deliverables.
+A JavaScript Playwright smoke test is included in [`playwright/README.md`](playwright/README.md). Since the staging account uses Google sign-in, authentication and onboarding are completed manually in Chrome. The automated test then searches for the existing fictional `AveryQA TestRecord` student in Caseload and verifies that the matching record is visible.
+
+No Google credentials are stored in the source code. The generated authentication state remains local and is excluded from version control.
